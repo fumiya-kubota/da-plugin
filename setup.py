@@ -8,5 +8,5 @@ setup(name="da_plugin",
 	packages=find_packages(),
     include_package_data=True,
     package_dir={'da_plugin': 'da_plugin'},
-    package_data={'da_plugin': ['js/*.js']}
+    package_data={'da_plugin': ['js/*.js', 'js/**/*.js']}
 )
