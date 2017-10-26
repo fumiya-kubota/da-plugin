@@ -6,4 +6,6 @@ setup(name="da_plugin",
 	description="da-plugin package",
 	url="https://github.com/fumiya-kubota/da-plugin",
 	packages=find_packages(),
+    data_files=[('js', ['index.js']),
+                ('js/components', ['PluginComponents'])]
 )
