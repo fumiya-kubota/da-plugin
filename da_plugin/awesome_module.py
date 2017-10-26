@@ -1,4 +1,4 @@
 
 
 def awesome_function():
-    print('awesome_function!!!')
+    return 'awesome_function!!!'

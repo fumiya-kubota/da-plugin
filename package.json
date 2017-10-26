@@ -15,7 +15,8 @@
     "lint:css": "stylelint src/**/*.css",
     "test": "ava",
     "test:ci": "yarn typecheck & yarn lint && yarn lint:css && yarn test:cover",
-    "test:cover": "nyc --reporter=lcov --reporter=text yarn test"
+    "test:cover": "nyc --reporter=lcov --reporter=text yarn test",
+    "library": "babel src --out-dir ./da_plugin/js --ignore main.js"
   },
   "dependencies": {
     "da-host": "https://github.com/fumiya-kubota/da-host"
